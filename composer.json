@@ -1,0 +1,19 @@
+{
+    "name": "mattdraper/untitled",
+    "autoload": {
+        "psr-4": {
+            "Mattdraper\\Untitled\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matthew Draper",
+            "email": "matt.draper@lynch2.com"
+        }
+    ],
+    "require": {
+        "stripe/stripe-php": "^7.100",
+      "ext-json": "*",
+        "nesbot/carbon": "^2.53"
+    }
+}
